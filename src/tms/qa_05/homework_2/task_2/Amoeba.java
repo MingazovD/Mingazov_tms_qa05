@@ -7,7 +7,7 @@ public class Amoeba {
             for ( int hour = 3; hour < 25; hour +=3 ){
                 allAmoebas = beginAmoebas *= 2 ;
 
-                System.out.println ("через " + hour + " часа амеб будет " + allAmoebas );
+                System.out.println ("через  " + hour + " часа амеб будет " + allAmoebas );
 
         }
         }
