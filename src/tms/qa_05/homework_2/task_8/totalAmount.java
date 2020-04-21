@@ -11,7 +11,7 @@ public class totalAmount {
             } else if (i % 2 != 0) {
                 num_2 += i;
             }
-            num_3 = num_1+num_2;
+            num_3 = num_1 + num_2;
         }
         System.out.println("сумма четных чисел от 0 до 100 = " + num_1);
         System.out.println("сумма нечетных чисел от 0 до 100 = " + num_2);
