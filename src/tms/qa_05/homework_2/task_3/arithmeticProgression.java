@@ -1,5 +1,6 @@
 package tms.qa_05.homework_2.task_3;
 
+// arithmeticProgression -> ArithmeticProgression
 public class arithmeticProgression {
     public static void main(String[] args) {
         int num_1 = 1;
