@@ -5,7 +5,9 @@ public class Run {
         double startDistance = 10;
         double firstDayDistance = 10;
         double allDistance = 0;
+        // 7 в отдельную переменную
         for (int trainingDay = 1; trainingDay < 7; trainingDay++) {
+            // 1.1 в отдельную переменную
             startDistance = startDistance * 1.1;
             allDistance += startDistance;
         }

@@ -1,8 +1,9 @@
 package tms.qa_05.homework_2.task_8;
 
+// totalAmount -> TotalAmount
 public class totalAmount {
     public static void main(String[] args) {
-        int num_1 = 0;
+        int num_1 = 0; // плохие названия переменных
         int num_2 = 0;
         int num_3 = 0;
         for (int i = 0; i <= 100; i++) {
@@ -11,6 +12,8 @@ public class totalAmount {
             } else if (i % 2 != 0) {
                 num_2 += i;
             }
+            
+            // общую сумму можно посчитать 1 раз вне цикла
             num_3 = num_1 + num_2;
         }
         System.out.println("сумма четных чисел от 0 до 100 = " + num_1);
