@@ -8,7 +8,6 @@ public class MultiplicationTable {
 
         for (int i = 0; i < multiplicationTable.length; i++) {
             for (int j = 0; j < multiplicationTable[i].length; j++) {
-
                 multiplicationTable[i][j] = i + j;
 
             }
