@@ -7,11 +7,11 @@ public class ArithmeticMean {
         int sumArithmeticMean = 0;
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
-            sumArithmeticMean = sum / 2;
-
+            sumArithmeticMean = sum / 2; // среднее можно посчитать 1 раз за пределами цикла. + не забудь, что результат можно быть дробным
+// пустая строка не нужна
         }
         System.out.println("среднее арефмитичесское массива: " + sumArithmeticMean);
-
+// пустая строка не нужна
     }
 }
 
